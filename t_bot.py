@@ -2,7 +2,7 @@ import telebot
 from parse_site import parse, base_url, headers
 
 
-bot = telebot.TeleBot('572832701:AAFJ4sk2xe2GzHTItiOQVw7JlFB8EeaCZOY')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(content_types=['text'])
 def start_message(message):
