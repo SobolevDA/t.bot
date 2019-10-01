@@ -3,7 +3,7 @@ from telebot import types
 from sock import client
 from channel_mag import channel, pinger, restart_mag
 
-bot = telebot.TeleBot('572832701:AAFJ4sk2xe2GzHTItiOQVw7JlFB8EeaCZOY')
+bot = telebot.TeleBot('')
 configurations = {}
 freq = ['11785', '11900', '12245', '12284', '11977', '12322']
 
